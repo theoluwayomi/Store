@@ -1,0 +1,71 @@
+.section_top {
+	margin-top: 70px!important;
+}
+
+@media (min-width:567px){
+	.section_top {
+		margin-top: 112px!important;
+	}
+}
+
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 0px;
+}
+
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 0px;
+    background: url(../img/breadcrumb/checkout-bg.jpg) no-repeat center bottom;
+        background-size: auto;
+    background-size: contain;
+    z-index: 1;
+}
+
+@media (max-width:567px){
+	.banner_area .banner_inner .banner_content .page_link a {
+	    font-size: 12px;
+	    margin-right: 15px;
+	    /*display: none;*/
+	}
+
+	.banner_area .banner_inner .banner_content h2 {
+	    font-size: 17px;
+		margin-bottom: 50px;
+		font-weight: 500;
+		/*margin-top: 0;*/
+	}
+
+	.banner_content>h2 {
+	    display: none;
+	}
+
+	.banner_area .banner_inner {
+		height: 50px;
+	}
+
+	.main_logo {
+		height: 30px;
+	}
+
+	.product_name {
+
+	}
+}
+
+.tag {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.normal_product_price>del {
+	color: red!important;
+}
+
+.product_price {
+	color: #0067f6!important;
+}

@@ -1,0 +1,1 @@
+<span style="font-size: 1.2rem"><strong>{{ presentPrice(Auth::user()->wallet->balance) }}</strong></span> <span style="font-size: 0.8rem"><strong>SC</strong> <span class="px-3"> &#8773; &#8358;{{ presentPrice(Auth::user()->wallet->balance) }}</span></span>

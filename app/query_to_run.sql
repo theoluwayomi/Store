@@ -1,0 +1,1 @@
+UPDATE `products` SET `image` = 'img/product/single-product/s-product-1.jpg';
